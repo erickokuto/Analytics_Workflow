@@ -1,0 +1,12 @@
+Backend verification (executed)
+PASS 1,000 original scoring rows with optional decisions
+PASS Reproduced Uncertainty_Quantification forecast, raw probability and upper 90% interval (numerical tolerance)
+PASS Reproduced Prescriptive_Analytics action and cost (numerical tolerance)
+PASS 10,000 complete dataset rows; 542 anomaly flags
+PASS 3 rows with outcome columns omitted
+PASS Missing supplier_id rejected
+PASS Duplicate order key rejected
+PASS Negative daily demand rejected
+PASS Future signal date rejected
+Scoring batch: 57 anomalies; zero unseen categories; mean forecast 21.649210; mean raw probability 0.502344; mean estimated cost EUR 1818.768072; mean estimated savings EUR 5320.587143.
+R source delimiter check passed; R runtime and UI not tested.
